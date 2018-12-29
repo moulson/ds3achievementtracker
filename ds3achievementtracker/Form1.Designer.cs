@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ringProgressBar = new System.Windows.Forms.ProgressBar();
+            this.ringLabel = new System.Windows.Forms.Label();
             this.programTitle = new System.Windows.Forms.Label();
             this.ringMasterImage = new System.Windows.Forms.PictureBox();
             this.allMasterImage = new System.Windows.Forms.PictureBox();
@@ -45,8 +47,6 @@
             this.infusionTotalStatus = new System.Windows.Forms.Panel();
             this.gestureTotalStatus = new System.Windows.Forms.Panel();
             this.allTotalStatus = new System.Windows.Forms.Panel();
-            this.ringLabel = new System.Windows.Forms.Label();
-            this.ringProgressBar = new System.Windows.Forms.ProgressBar();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ringMasterImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.allMasterImage)).BeginInit();
@@ -72,6 +72,23 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(671, 752);
             this.panel1.TabIndex = 0;
+            // 
+            // ringProgressBar
+            // 
+            this.ringProgressBar.Location = new System.Drawing.Point(13, 56);
+            this.ringProgressBar.Name = "ringProgressBar";
+            this.ringProgressBar.Size = new System.Drawing.Size(646, 23);
+            this.ringProgressBar.TabIndex = 1;
+            // 
+            // ringLabel
+            // 
+            this.ringLabel.AutoSize = true;
+            this.ringLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.ringLabel.Location = new System.Drawing.Point(3, 13);
+            this.ringLabel.Name = "ringLabel";
+            this.ringLabel.Size = new System.Drawing.Size(409, 39);
+            this.ringLabel.TabIndex = 0;
+            this.ringLabel.Text = "Master Of Rings Checklist";
             // 
             // programTitle
             // 
@@ -210,23 +227,6 @@
             this.allTotalStatus.Size = new System.Drawing.Size(90, 90);
             this.allTotalStatus.TabIndex = 12;
             // 
-            // ringLabel
-            // 
-            this.ringLabel.AutoSize = true;
-            this.ringLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.ringLabel.Location = new System.Drawing.Point(3, 13);
-            this.ringLabel.Name = "ringLabel";
-            this.ringLabel.Size = new System.Drawing.Size(409, 39);
-            this.ringLabel.TabIndex = 0;
-            this.ringLabel.Text = "Master Of Rings Checklist";
-            // 
-            // ringProgressBar
-            // 
-            this.ringProgressBar.Location = new System.Drawing.Point(13, 56);
-            this.ringProgressBar.Name = "ringProgressBar";
-            this.ringProgressBar.Size = new System.Drawing.Size(646, 23);
-            this.ringProgressBar.TabIndex = 1;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -241,7 +241,6 @@
             this.Controls.Add(this.programTitle);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ringTotalStatus);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Dark Souls 3 Collection Tracker";
             this.panel1.ResumeLayout(false);
