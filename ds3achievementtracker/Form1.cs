@@ -17,7 +17,6 @@ namespace ds3achievementtracker
         public Form1()
         {
             InitializeComponent();
-            MongoConnect();
             LoadData();
         }
 
@@ -37,9 +36,36 @@ namespace ds3achievementtracker
             }
         }
 
-        private void MongoConnect()
+        private void FillStarterData()
         {
+            List<Ring> rings = new List<Ring>();
+            List<Miracle> miracles = new List<Miracle>();
+            List<Sorcery> sorceries = new List<Sorcery>();
+            List<Gesture> gestures = new List<Gesture>();
+            List<Pyromancy> pyromancies = new List<Pyromancy>();
+
             
+        }
+
+        private List<Ring> FillListRings()
+        {
+            return null;
+        }
+        private List<Sorcery> FillListSorceries()
+        {
+            return null;
+        }
+        private List<Miracle> FillListMiracles()
+        {
+            return null;
+        }
+        private List<Gesture> FillListGestures()
+        {
+            return null;
+        }
+        private List<Pyromancy> FillListPyromancies()
+        {
+            return null;
         }
 
         private void sorceryMasterImage_Click(object sender, EventArgs e)
