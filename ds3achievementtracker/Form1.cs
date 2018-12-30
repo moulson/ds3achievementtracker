@@ -49,6 +49,11 @@ namespace ds3achievementtracker
 
         private List<Ring> FillListRings()
         {
+            var rings = new List<Ring>()
+            {
+                new Item.Ring()
+                {name = "Life Ring", id = 0, }
+            };
             return null;
         }
         private List<Sorcery> FillListSorceries()

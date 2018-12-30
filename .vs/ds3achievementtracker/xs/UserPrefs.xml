@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{7C66520F-A031-4CBD-869D-3D25FF18475A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ds3achievementtracker/Form1.cs">
+    <Files>
+      <File FileName="ds3achievementtracker/Form1.cs" Line="25" Column="37" />
+      <File FileName="ds3achievementtracker/Form1.Designer.cs" Line="1" Column="1" />
+      <File FileName="ds3achievementtracker/Program.cs" Line="1" Column="1" />
+      <File FileName="ds3achievementtracker/Items.cs" Line="9" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ds3achievementtracker PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/dan/Desktop/projects/ds3achievementtracker/ds3achievementtracker/Form1.cs" relfile="ds3achievementtracker/Form1.cs" line="23" column="13" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

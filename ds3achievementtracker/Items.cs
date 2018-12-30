@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ds3achievementtracker
 {
-    class Ring
+    public class Ring
     {
         private string name;
         private int id;
